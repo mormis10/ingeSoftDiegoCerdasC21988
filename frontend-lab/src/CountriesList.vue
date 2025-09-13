@@ -29,6 +29,7 @@ is-fullwidth"
 </template>
 
 <script>
+    import axios from "axios"
     export default {
         name: "CountriesList",
         data() {
@@ -54,6 +55,17 @@ methods:{
             this.countries.splice(index,1,{...this.countries[index],name: new_name})
         }
     },
+    getCountries(){
+        axios.get("https://localhost:7019/api/country").then((response) =>{
+            this.countries = response.data;
+
+        });
+        
+    },
+    created: function () {
+     this.getCountries();
+    },
+    
 }
 
 }
