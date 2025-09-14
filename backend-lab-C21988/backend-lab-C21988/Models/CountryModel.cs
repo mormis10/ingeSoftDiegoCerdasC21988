@@ -6,6 +6,7 @@
         public string Name { get; set; }
 
         public string Continent { get; set; }
-        public string lenguage { get; set; }
+        public string language { get; set; }
+
     }
 }
