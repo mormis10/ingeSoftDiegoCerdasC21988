@@ -1,0 +1,35 @@
+{
+  "id": "13bc35c8-1d05-42b0-b8ff-595fb94c113d",
+  "version": "2.0",
+  "name": "UITestLaboratorio7",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "84a2be87-a4c3-4abe-bee6-44900ecbf46d",
+    "name": "PruebaUIUno",
+    "commands": [{
+      "id": "fabb7a45-015d-4def-b44d-eae510e1ad60",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e23d92b9-3d2c-48b7-ab75-bb1c5a780bb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e2fe9c8a-b1c1-4784-a7cb-14cacfb4110a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84a2be87-a4c3-4abe-bee6-44900ecbf46d"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
