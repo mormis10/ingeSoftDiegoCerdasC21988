@@ -3,7 +3,7 @@
         <h1 class="display-4 text-center">Lista de países</h1>
         <div class="row justify-content-end">
             <div class="col-2">
-                <a href="/Country">
+                <a href="/Country" id="add-country">
                     <button type="button" class="btn btn-outline-secondary float-right">Agregar país</button>
                 </a>
             </div>
